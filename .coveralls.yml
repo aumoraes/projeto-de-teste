@@ -1,0 +1,3 @@
+repo_token: rosuhrwIQ3OxQPBt9DptnJd2XFsuAWrCD
+service_name: test
+parallel: true # if the CI is running your build in parallel

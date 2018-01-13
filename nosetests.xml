@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="7" errors="0" failures="0" skip="0"><testcase classname="test_column.ColumnTest" name="test_validate_bigint" time="0.000"></testcase><testcase classname="test_column.ColumnTest" name="test_validate_numeric" time="0.000"></testcase><testcase classname="test_column.ColumnTest" name="test_validate_varchar" time="0.000"></testcase><testcase classname="test_datatable.DataTableTest" name="test_add_column" time="0.000"><system-out><![CDATA[cleanup executado
+]]></system-out></testcase><testcase classname="test_datatable.DataTableTest" name="test_add_column_invalid_type" time="0.000"><system-out><![CDATA[cleanup executado
+]]></system-out></testcase><testcase classname="test_datatable.DataTableTest" name="test_add_column_invalid_type_fail" time="0.000"><system-out><![CDATA[cleanup executado
+]]></system-out></testcase><testcase classname="teste_com_mock.DownloadTest" name="test_download_with_known_length" time="0.001"><system-out><![CDATA[Downloaded 0
+Downloaded 99
+]]></system-out></testcase></testsuite>
