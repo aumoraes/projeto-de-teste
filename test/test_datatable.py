@@ -10,6 +10,18 @@ class DataTableTest(unittest.TestCase):
     def my_cleanup(self, msg):
         print(msg)
 
+    def test_get_name(self):
+        self.assertEqual("A", self.table._get_name())
+
+    def test_set_name(self):
+        self.table._set_name("aurelio")
+        self.assertEqual("aurelio", self.table._get_name())
+
+
+    def test_delete_name(self):
+        self.assertRaises(AttributeError,
+        self.table._del_name)
+
     def test_add_column(self):
         #table = DataTable("Empreendimento")
         self.assertEqual(0, len(self.table._columns))
